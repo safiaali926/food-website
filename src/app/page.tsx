@@ -1,12 +1,13 @@
 import Image from "next/image";
 
+
  function Home() {
-  return (<>
+  return (<main>
   
   
   
   
-  </>
+  </main>
   )}
   export default Home
 
