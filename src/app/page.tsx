@@ -52,7 +52,7 @@ import Link from "next/link";
   <section>
     <div className="flex  py-6 items-center justify-center">
         <h2 className="text-2xl font-bold px-3 ">Up to - 40% OFF | Food.pk Exclusive Deals</h2>
-  <nav className="hidden md:block">
+ {/* <nav className="hidden md:block">
             <ul className="flex gap-x-7 pl-9">
               <li><Link href="/" className="hover:bg-amber-400 rounded-2xl px-2">Desi</Link></li>
               <li><Link href="/" className="hover:bg-amber-400 rounded-2xl px-2">Sushi</Link></li>
@@ -106,11 +106,148 @@ import Link from "next/link";
     Your Text Here
   </div>
 </div>
-</div>
+
+
+</div>*/}
 
 </div>
 
 
+<div className="container w-full mx-auto px-4">
+ {/* <!-- Navbar Section -->*/}
+  <nav className="flex space-x-4 p-4 bg-gray-900 rounded text-white shadow-md justify-center">
+    <a href="#section1" className="hover:bg-amber-400 hover:text-black rounded-2xl px-2">Deals</a>
+    <a href="#section2" className="hover:bg-amber-400 hover:text-black rounded-2xl px-2">Burgers</a>
+    <a href="#section3" className="hover:bg-amber-400 hover:text-black rounded-2xl px-2">Pizza</a>
+    <a href="#section4" className="hover:bg-amber-400 hover:text-black rounded-2xl px-2">Cold Drinks</a>
+  </nav>
+
+ {/* <!-- Section Boxes -->*/}
+  <div className="mt-6">
+    <div id="section1" className="mb-8">
+      <h2 className="text-xl font-bold mb-2">Hot Deals - Food.pk Exclusive Deals </h2>
+      <div className="overflow-x-auto whitespace-nowrap scrollbar-hide">
+        <div className="flex space-x-4 w-max">
+          <div className="w-80 h-64 bg-white border-2 border-gray-300 rounded-lg shadow-lg inline-block">
+            <img src="/3burgers.jpg" alt="Example 1" className="w-full h-48 object-cover rounded-t-lg" />
+            <div className="p-4">
+              <p className="text-center font-semibold">3 Person Burger Deal</p>
+            </div>
+          </div>
+          <div className="w-80 h-64 bg-white border-2 border-gray-300 rounded-lg shadow-lg inline-block">
+            <img src="/pizza1.jpg" alt="Example 2" className="w-full h-48 object-cover rounded-t-lg" />
+            <div className="p-4">
+              <p className="text-center font-semibold">2 Pizza Deal</p>
+            </div>
+          </div>
+
+          <div className="w-80 h-64 bg-white border-2 border-gray-300 rounded-lg shadow-lg inline-block">
+            <img src="/3pizza.webp" alt="Example 4" className="w-full h-48 object-cover rounded-t-lg" />
+            <div className="p-4">
+              <p className="text-center font-semibold">3 Pizza Deal</p>
+            </div>
+          </div>
+
+
+          <div className="w-80 h-64 bg-white border-2 border-gray-300 rounded-lg shadow-lg inline-block">
+            <img src="/fambug.webp" alt="Example 4" className="w-full h-48 object-cover rounded-t-lg" />
+            <div className="p-4">
+              <p className="text-center font-semibold">Family Burger Deal</p>
+            </div>
+          </div>
+
+          
+         {/* <!-- Add more boxes as needed -->*/}
+        </div>
+      </div>
+    </div>
+
+    <div id="section2" className="mb-8">
+      <h2 className="text-xl font-bold mb-2">Burgers</h2>
+      <div className="overflow-x-auto whitespace-nowrap scrollbar-hide">
+        <div className="flex space-x-4 w-max">
+          <div className="w-80 h-64 bg-white border-2 border-gray-300 rounded-lg shadow-lg inline-block">
+            <img src="/doubleduck.jpg" alt="Example 3" className="w-full h-48 object-cover rounded-t-lg" />
+            <div className="p-4">
+              <p className="text-center font-semibold">Double Decker Patty Burger</p>
+            </div>
+          </div>
+          <div className="w-80 h-64 bg-white border-2 border-gray-300 rounded-lg shadow-lg inline-block">
+            <img src="/zinger.webp" alt="Example 4" className="w-full h-48 object-cover rounded-t-lg" />
+            <div className="p-4">
+              <p className="text-center font-semibold">Zinger Burger</p>
+            </div>
+          </div>
+          <div className="w-80 h-64 bg-white border-2 border-gray-300 rounded-lg shadow-lg inline-block">
+            <img src="/beef.avif" alt="Example 4" className="w-full h-48 object-cover rounded-t-lg" />
+            <div className="p-4">
+              <p className="text-center font-semibold">Beef Burger</p>
+            </div>
+          </div>
+
+          <div className="w-80 h-64 bg-white border-2 border-gray-300 rounded-lg shadow-lg inline-block">
+            <img src="/cheesebug.jpg" alt="Example 4" className="w-full h-48 object-cover rounded-t-lg" />
+            <div className="p-4">
+              <p className="text-center font-semibold">Cheese Burger</p>
+            </div>
+          </div>
+          {/*<!-- Add more boxes as needed -->*/}
+        </div>
+      </div>
+    </div>
+
+    <div id="section3" className="mb-8">
+      <h2 className="text-xl font-bold mb-2">Pizza</h2>
+      <div className="overflow-x-auto whitespace-nowrap scrollbar-hide">
+        <div className="flex space-x-4 w-max">
+          <div className="w-80 h-64 bg-white border-2 border-gray-300 rounded-lg shadow-lg inline-block">
+            <img src="/pizza2.jpg" alt="Example 5" className="w-full h-48 object-cover rounded-t-lg" />
+            <div className="p-4">
+              <p className="text-center font-semibold">Large Pizza</p>
+            </div>
+          </div>
+          <div className="w-80 h-64 bg-white border-2 border-gray-300 rounded-lg shadow-lg inline-block">
+            <img src="/medium.webp" alt="Example 4" className="w-full h-48 object-cover rounded-t-lg" />
+            <div className="p-4">
+              <p className="text-center font-semibold">Medium Pizza</p>
+            </div>
+          </div>
+
+          <div className="w-80 h-64 bg-white border-2 border-gray-300 rounded-lg shadow-lg inline-block">
+            <img src="/zinger.webp" alt="Example 4" className="w-full h-48 object-cover rounded-t-lg" />
+            <div className="p-4">
+              <p className="text-center font-semibold">Zinger Burger</p>
+            </div>
+          </div>
+
+          <div className="w-80 h-64 bg-white border-2 border-gray-300 rounded-lg shadow-lg inline-block">
+            <img src="/zinger.webp" alt="Example 4" className="w-full h-48 object-cover rounded-t-lg" />
+            <div className="p-4">
+              <p className="text-center font-semibold">Zinger Burger</p>
+            </div>
+          </div>
+
+          {/*<!-- Add more boxes as needed -->*/}
+        </div>
+      </div>
+    </div>
+
+    <div id="section4" className="mb-8">
+      <h2 className="text-xl font-bold mb-2">Cold Drinks</h2>
+      <div className="overflow-x-auto whitespace-nowrap scrollbar-hide">
+        <div className="flex space-x-4 w-max">
+          <div className="w-80 h-64 bg-white border-2 border-gray-300 rounded-lg shadow-lg inline-block">
+            <img src="/example-image6.jpg" alt="Example 6" className="w-full h-48 object-cover rounded-t-lg" />
+            <div className="p-4">
+              <p className="text-center font-semibold">Box 6</p>
+            </div>
+          </div>
+          {/*<!-- Add more boxes as needed -->*/}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
   </section>
@@ -122,4 +259,4 @@ import Link from "next/link";
   export default Home 
 
     
-  
+
