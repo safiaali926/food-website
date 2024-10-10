@@ -351,31 +351,28 @@ function Home() {
 
 </div>
 
-<div className="grid grid-cols-4 gap-4 m-8 bg-amber-400 text-gray-900 justify-center items-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-  <div className="text-5xl p-9">
+<div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 m-4 bg-amber-400 text-gray-900 justify-center items-center p-4">
+  <div className="text-5xl p-4 md:p-6 lg:p-9 text-center">
     546+
-    <div className="text-2xl flex">Rigestered Riders</div>
+    <div className="text-2xl mt-2">Registered Riders</div>
   </div>
 
-
-  <div className="text-5xl p-9">
+  <div className="text-5xl p-4 md:p-6 lg:p-9 text-center">
     789,900+
-    <div className="text-2xl flex">Orders Delivered</div>
+    <div className="text-2xl mt-2">Orders Delivered</div>
   </div>
 
-
-  <div className="text-5xl p-6">
+  <div className="text-5xl p-4 md:p-6 lg:p-9 text-center">
     690+
-    <div className="text-2xl flex">Restaurants Partnered</div>
+    <div className="text-2xl mt-2">Restaurants Partnered</div>
   </div>
 
-
-  <div className="text-5xl p-9">
+  <div className="text-5xl p-4 md:p-6 lg:p-9 text-center">
     17,547+
-    <div className="text-2xl flex">Food Items</div>
+    <div className="text-2xl mt-2">Food Items</div>
   </div>
-
 </div>
+
 
   </main>
   )
