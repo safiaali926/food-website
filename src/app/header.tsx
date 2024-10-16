@@ -16,10 +16,10 @@ import { useState } from 'react';
           <nav className="hidden md:block">
             <ul className="flex gap-x-7 py-5">
               <li><Link href="/" className="hover:bg-amber-400 rounded-2xl px-2">Home</Link></li>
-              <li><Link href="/" className="hover:bg-amber-400 rounded-2xl px-2">Browse Menu</Link></li>
-              <li><Link href="/" className="hover:bg-amber-400 rounded-2xl px-2">Special Offers</Link></li>
-              <li><Link href="/" className="hover:bg-amber-400 rounded-2xl px-2">Restaurants</Link></li>
-              <li><Link href="/" className="hover:bg-amber-400 rounded-2xl px-2">Track Order</Link></li>
+              <li><Link href="/browsemenu" className="hover:bg-amber-400 rounded-2xl px-2">Browse Menu</Link></li>
+              <li><Link href="/specialoffers" className="hover:bg-amber-400 rounded-2xl px-2">Special Offers</Link></li>
+              <li><Link href="/restaurants" className="hover:bg-amber-400 rounded-2xl px-2">Restaurants</Link></li>
+              <li><Link href="/trackorders" className="hover:bg-amber-400 rounded-2xl px-2">Track Order</Link></li>
             </ul>
           </nav>
     
@@ -49,10 +49,10 @@ import { useState } from 'react';
             <nav className="md:hidden absolute top-16 left-0 w-full bg-white shadow-lg z-10">
               <ul className="flex flex-col items-center gap-y-5 py-5">
                 <li><Link href="/" className="hover:bg-amber-400 rounded-2xl px-4">Home</Link></li>
-                <li><Link href="/" className="hover:bg-amber-400 rounded-2xl px-4">Browse Menu</Link></li>
-                <li><Link href="/" className="hover:bg-amber-400 rounded-2xl px-4">Special Offers</Link></li>
-                <li><Link href="/" className="hover:bg-amber-400 rounded-2xl px-4">Restaurants</Link></li>
-                <li><Link href="/" className="hover:bg-amber-400 rounded-2xl px-4">Track Order</Link></li>
+                <li><Link href="/browsemenu" className="hover:bg-amber-400 rounded-2xl px-4">Browse Menu</Link></li>
+                <li><Link href="/specialoffers" className="hover:bg-amber-400 rounded-2xl px-4">Special Offers</Link></li>
+                <li><Link href="/restaurants" className="hover:bg-amber-400 rounded-2xl px-4">Restaurants</Link></li>
+                <li><Link href="/trackorders" className="hover:bg-amber-400 rounded-2xl px-4">Track Order</Link></li>
               </ul>
             </nav>
           )}
